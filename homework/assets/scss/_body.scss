@@ -1,0 +1,59 @@
+
+
+.wrap_body{
+  @include mauto;
+  display: flex;
+
+  height: 1300px;
+  width: 1920px;
+  background: linear-gradient(to top, #f6f7fa, #f6f7fa 600px, #ffffff 55%,);
+
+    img{
+      position: absolute;
+      margin-top: -570px;
+      margin-left: 400px;
+
+    }
+}
+
+.wrap_content{
+  @include mauto;
+  width: 1500px;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content{
+  width: 400px;
+  height: 450px;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+      .content_item{
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+      }
+      
+      .content_text_top{
+        font-family: 'Roboto-bold';
+      }
+
+      .content_text_bottom{
+        font-family: Roboto-Regular;
+        text-align: center;
+      }
+      
+   
+}
+
+
+
+/*# sourceMappingURL=common.css.map */
