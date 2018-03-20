@@ -94,6 +94,9 @@ header {
   color: white; }
 
 /*# sourceMappingURL=common.css.map */
+html {
+  background: #0e1a35; }
+
 .wrap_body {
   margin-right: auto;
   margin-left: auto;
@@ -179,6 +182,40 @@ header {
     margin-top: 17px; }
   .section #icon_bottom {
     margin-top: -5px; }
+
+/*# sourceMappingURL=common.css.map */
+footer {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100px;
+  width: 1920px;
+  background: #0e1a35; }
+
+.aside {
+  font-family: 'Roboto-Regular';
+  color: #8492af;
+  float: left;
+  margin-left: 150px;
+  margin-top: 35px; }
+
+.footer_info {
+  display: block;
+  width: 550px;
+  height: 30px;
+  padding-top: 40px;
+  margin-left: 1300px; }
+  .footer_info li {
+    display: inline-block;
+    margin-right: 50px; }
+    .footer_info li a {
+      text-decoration: none;
+      font-family: 'Roboto-Regular';
+      color: #8492af; }
+    .footer_info li:nth-child(3) {
+      margin-right: 70px; }
+
+.footer_icon {
+  margin-left: -30px; }
 
 /*# sourceMappingURL=common.css.map */
 
