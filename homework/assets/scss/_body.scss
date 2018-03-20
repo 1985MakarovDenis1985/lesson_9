@@ -3,12 +3,11 @@
 .wrap_body{
   @include mauto;
   display: flex;
-
-  height: 1300px;
+  height: 1600px;
   width: 1920px;
-  background: linear-gradient(to top, #f6f7fa, #f6f7fa 600px, #ffffff 55%,);
+  background: linear-gradient(to top, #f6f7fa, #f6f7fa 800px, #ffffff 65%,);
 
-    img{
+    .miniweb{
       position: absolute;
       margin-top: -570px;
       margin-left: 400px;
@@ -28,7 +27,6 @@
 .content{
   width: 400px;
   height: 450px;
-  border: 1px solid black;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -49,10 +47,65 @@
       .content_text_bottom{
         font-family: Roboto-Regular;
         text-align: center;
+        color: #a2adc3;
+        line-height: 30px;
+        margin-bottom: 40px;
       }
       
-   
+      .content_button{
+        @include button;
+        cursor: pointer;
+      }
 }
+  
+  .img{
+    margin-top: 850px;
+    margin-left: 920px;
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    overflow: hidden;    
+  }
+
+  .section{
+    position: absolute;
+    width: 750px;
+    height: 450px;
+    margin-top: 900px;
+    margin-left: 150px;
+
+          p{
+              font-family: 'Roboto-Regular';
+              line-height: 30px;
+          }
+
+          h5{
+            font-family: 'Roboto-Regular';
+            font-size: 21px;
+            padding-top: -15px;
+            color: #5886ff;
+            margin-left: 50px;
+          }
+
+          .section_top_text{
+            font-size: 50px;
+            font-family: 'Roboto-Thin'
+          }
+      
+          i{
+            position: absolute;
+            font-size: 30px;
+            color: #5886ff;
+          }
+          
+          #icon_top{
+            margin-top: 17px;
+          }
+          #icon_bottom{
+            margin-top: -5px;
+          }
+                      
+  }
 
 
 

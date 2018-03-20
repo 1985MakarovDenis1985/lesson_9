@@ -73,7 +73,7 @@ header {
   margin-right: auto; }
 
 .button {
-  font-family: Roboto-Regular;
+  cursor: pointer;
   display: block;
   width: 150px;
   height: 40px;
@@ -85,7 +85,7 @@ header {
   background: #5584ff; }
   .button a {
     font-size: 17px;
-    font-family: Roboto-Regular;
+    font-family: 'Roboto-Regular';
     color: white; }
 
 /*# sourceMappingURL=common.css.map */

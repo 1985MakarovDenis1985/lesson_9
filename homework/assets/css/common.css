@@ -77,7 +77,7 @@ header {
   margin-right: auto; }
 
 .button {
-  font-family: Roboto-Regular;
+  cursor: pointer;
   display: block;
   width: 150px;
   height: 40px;
@@ -90,7 +90,7 @@ header {
 
 .button a {
   font-size: 17px;
-  font-family: Roboto-Regular;
+  font-family: 'Roboto-Regular';
   color: white; }
 
 /*# sourceMappingURL=common.css.map */
@@ -98,10 +98,10 @@ header {
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  height: 1300px;
+  height: 1600px;
   width: 1920px;
-  background: linear-gradient(to top, #f6f7fa, #f6f7fa 600px, #ffffff 55%); }
-  .wrap_body img {
+  background: linear-gradient(to top, #f6f7fa, #f6f7fa 800px, #ffffff 65%); }
+  .wrap_body .miniweb {
     position: absolute;
     margin-top: -570px;
     margin-left: 400px; }
@@ -118,7 +118,6 @@ header {
 .content {
   width: 400px;
   height: 450px;
-  border: 1px solid black;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -133,7 +132,53 @@ header {
     font-family: 'Roboto-bold'; }
   .content .content_text_bottom {
     font-family: Roboto-Regular;
-    text-align: center; }
+    text-align: center;
+    color: #a2adc3;
+    line-height: 30px;
+    margin-bottom: 40px; }
+  .content .content_button {
+    background: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid #a2adc3;
+    font-size: 20px;
+    cursor: pointer; }
+
+.img {
+  margin-top: 850px;
+  margin-left: 920px;
+  position: absolute;
+  width: 1000px;
+  height: 700px;
+  overflow: hidden; }
+
+.section {
+  position: absolute;
+  width: 750px;
+  height: 450px;
+  margin-top: 900px;
+  margin-left: 150px; }
+  .section p {
+    font-family: 'Roboto-Regular';
+    line-height: 30px; }
+  .section h5 {
+    font-family: 'Roboto-Regular';
+    font-size: 21px;
+    padding-top: -15px;
+    color: #5886ff;
+    margin-left: 50px; }
+  .section .section_top_text {
+    font-size: 50px;
+    font-family: "Roboto-Thin"; }
+  .section i {
+    position: absolute;
+    font-size: 30px;
+    color: #5886ff; }
+  .section #icon_top {
+    margin-top: 17px; }
+  .section #icon_bottom {
+    margin-top: -5px; }
 
 /*# sourceMappingURL=common.css.map */
 
